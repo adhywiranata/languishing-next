@@ -12,33 +12,33 @@ module.exports = {
     // should handle (these are only required when setting up domain routing)
     // Note: subdomains must be included in the domain value to be matched e.g. "fr.example.com".
     domains: [
-      // {
-      //   domain: "languishing.adhy.dev",
-      //   defaultLocale: "id",
-      // },
-      // {
-      //   domain: "en.languishing.adhy.dev",
-      //   defaultLocale: "en",
-      // },
-      // {
-      //   domain: "fr.languishing.adhy.dev",
-      //   defaultLocale: "fr",
-      // },
       {
-        domain: "local.tiket.com",
+        domain: "languishing.adhy.dev",
         defaultLocale: "id",
-        http: true,
       },
       {
-        domain: "en.local.tiket.com",
+        domain: "en.languishing.adhy.dev",
         defaultLocale: "en",
-        http: true,
       },
       {
-        domain: "fr.local.tiket.com",
+        domain: "fr.languishing.adhy.dev",
         defaultLocale: "fr",
-        http: true,
       },
+      // {
+      //   domain: "local.tiket.com",
+      //   defaultLocale: "id",
+      //   http: true,
+      // },
+      // {
+      //   domain: "en.local.tiket.com",
+      //   defaultLocale: "en",
+      //   http: true,
+      // },
+      // {
+      //   domain: "fr.local.tiket.com",
+      //   defaultLocale: "fr",
+      //   http: true,
+      // },
     ],
   },
 };
