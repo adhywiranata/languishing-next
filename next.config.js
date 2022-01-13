@@ -24,21 +24,6 @@ module.exports = {
         domain: "fr.languishing.adhy.dev",
         defaultLocale: "fr",
       },
-      // {
-      //   domain: "local.tiket.com",
-      //   defaultLocale: "id",
-      //   http: true,
-      // },
-      // {
-      //   domain: "en.local.tiket.com",
-      //   defaultLocale: "en",
-      //   http: true,
-      // },
-      // {
-      //   domain: "fr.local.tiket.com",
-      //   defaultLocale: "fr",
-      //   http: true,
-      // },
     ],
   },
 };
